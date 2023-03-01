@@ -37,7 +37,7 @@ const TrafficLight = () => {
           }`}
           id="green"
           onClick={() => handleClick("green")}
-          style={{ "--light-on": "green", "--light-off": "darkgreen"}}
+          style={{ "--light-on": "green", "--light-off": "darkyellow"}}
         ></button>
       </div>
       <div className="text-center bottom-fixed">
