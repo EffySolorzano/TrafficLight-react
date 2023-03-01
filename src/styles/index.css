@@ -10,3 +10,60 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.body{
+    background-color: black;
+    height: 350px;
+    width: 150px;
+    margin: auto;
+    border-radius: 35px;
+    padding-top: 20px;
+}
+#red{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    background-color: var(--light-off, darkred);
+}
+#yellow{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+#green{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+.red.active{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 20px 20px rgba(221, 111, 111, 0.822);
+    background-color: var(--light-on, red);
+}
+.yellow.active{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 20px 20px rgba(253, 221, 115, 0.822);
+    background-color: var(--light-on, yellow);
+}
+.green.active{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 20px 20px rgba(101, 245, 101, 0.822);
+    background-color: var(--light-on, green);
+}
